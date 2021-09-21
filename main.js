@@ -29,7 +29,7 @@ server.post('/registrations', async (req, res) => {
 server.get('/registrations', (req, res) => {
     Data.find()
     .then(data => {
-        res.json(data)
+        res.json({error:0, data})
     })
     .catch(error => {
         res.json({error: 1})
