@@ -1,0 +1,27 @@
+{
+  "name": "be1020",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon main",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrUnicornIT/BE1020.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DrUnicornIT/BE1020/issues"
+  },
+  "homepage": "https://github.com/DrUnicornIT/BE1020#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "knex": "^0.95.11",
+    "nodemon": "^2.0.12",
+    "sqlite3": "^5.0.2"
+  }
+}
